@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    api1:
+      path: /test1/**
+      serviceId: service-demo1
+    api2:
+      path: /test2/**
+      serviceId: service-demo2
+server:
+  port: 17002
