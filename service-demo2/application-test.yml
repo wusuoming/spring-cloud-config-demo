@@ -1,2 +1,8 @@
 server:
   port: 19002
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  esources.add-mappings: false
+logging:
+  file: ${spring.application.name}.log
