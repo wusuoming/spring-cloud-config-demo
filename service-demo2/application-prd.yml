@@ -1,10 +1,2 @@
-zuul:
-  routes:
-    api1:
-      path: /prd1/**
-      serviceId: service-demo1
-    api2:
-      path: /prd2/**
-      serviceId: service-demo2
 server:
-  port: 27002
+  port: 29002

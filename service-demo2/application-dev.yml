@@ -1,8 +1,0 @@
-zuul:
-  routes:
-    api1:
-      path: /dev1/**
-      serviceId: service-demo1
-    api2:
-      path: /dev2/**
-      serviceId: service-demo2
