@@ -4,12 +4,12 @@ spring:
       host: localhost
       port: 8500
 server:
-  port: 7002
+  port: 27002
 zuul:
   routes:
     api1:
-      path: /dev1/**
+      path: /test1/**
       serviceId: service-demo1
     api2:
-      path: /dev2/**
+      path: /test1/**
       serviceId: service-demo2
