@@ -1,10 +1,10 @@
 zuul:
   routes:
     api1:
-      path: /demo1/**
+      path: /ppp1/**
       serviceId: service-demo1
     api2:
-      path: /demo2/**
+      path: /ppp2/**
       serviceId: service-demo2
 server:
   port: 27002
