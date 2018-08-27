@@ -6,3 +6,5 @@ zuul:
     api2:
       path: /dev2/**
       serviceId: service-demo2
+logging:
+  file: ${spring.application.name}.log

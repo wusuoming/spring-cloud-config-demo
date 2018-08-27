@@ -1,2 +1,4 @@
 server:
   port: 19001
+logging:
+  file: ${spring.application.name}.log
