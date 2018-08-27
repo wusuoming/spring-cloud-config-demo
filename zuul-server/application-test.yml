@@ -6,7 +6,5 @@ zuul:
     api2:
       path: /test2/**
       serviceId: service-demo2
-server:
-  port: 17002
 logging:
   file: ${spring.application.name}.log
